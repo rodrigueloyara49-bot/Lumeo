@@ -1,3 +1,4 @@
+// app/_layout.tsx
 import { Tabs } from "expo-router";
 
 export default function Layout() {
@@ -7,6 +8,7 @@ export default function Layout() {
         headerStyle: { backgroundColor: "#6200EE" },
         headerTintColor: "#fff",
         tabBarActiveTintColor: "#6200EE",
+        tabBarStyle: { backgroundColor: "#fff" },
       }}
     >
       <Tabs.Screen name="index" options={{ title: "Home" }} />
